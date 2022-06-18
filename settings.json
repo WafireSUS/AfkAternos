@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "bot",
+    "username": "BOT",
     "password": "",
-    "type": "mojang"
+    "type": "microsoft"
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.17.1"
+    "ip": "ohsv.aternos.me",
+    "port": 38809,
+    "version": "1.18.2"
   },
 
   "position": {
@@ -20,13 +20,13 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
+      "enabled": true,
       "password": "12345678"
     },
 
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
 
     "chat-messages": {
@@ -35,15 +35,12 @@
       "repeat-delay": 60,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
-        "Visit my GitHub page! (urFate/Afk-Bot)"
+        "Join Discord : https://discord.gg/w64eWEPc8K"
       ]
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
